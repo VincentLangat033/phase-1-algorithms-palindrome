@@ -18,6 +18,9 @@ lowercase the string and use the regular expressions to remove unwanted strings
 
 /*
   Add written explanation of your solution here
+  // this solution will initialize a function isPalindrome and pass a parameter str. we then include a variable to check reqular 
+  expressions and remove them from our string and that happens after we convert the string to LowerCase
+  then we create another variable which is going to give us the reversed value
 
   // str.toLowerCase() = "A man, a plan, a canal. Panama".toLowerCase() = "a man, a plan, a canal. panama"
   // str.replace(/[\W_]/g, '') = "a man, a plan, a canal. panama".replace(/[\W_]/g, '') = "amanaplanacanalpanama"
@@ -35,7 +38,7 @@ function isPalindrome(str){
   //returns true if its a palindrome else false
 }
 
-isPalindrome("A man, a plan, a canal. Panama")
+// isPalindrome(invoke the function)
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
